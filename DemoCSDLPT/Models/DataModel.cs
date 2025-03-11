@@ -10,7 +10,7 @@ namespace DemoCSDLPT.Models
 {
     public class DataModel
     {
-        public static string connectionString = "Server=DESKTOP-EVHLO2N\\SQLEXPRESS;Database=CSDLPTTH01_BT1;User Id=democsdlpt1; Password=democsdlpt123@; Trusted_Connection=false;";
+        public static string connectionString = "Server=DESKTOP-EVHLO2N\\SQLEXPRESS;Database=CSDLPT;User Id=huy; Password=123; Trusted_Connection=false;";
  public ArrayList get(String sql)
         {
             ArrayList datalist = new ArrayList();

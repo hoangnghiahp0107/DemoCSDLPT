@@ -20,5 +20,17 @@ namespace DemoCSDLPT.Controllers
             string sql = "EXEC DULIEUCHITIETHOADON " + id;
             return Json(db.get(sql), JsonRequestBehavior.AllowGet);
         }
+        public JsonResult manh1()
+        {
+            DataModel db = new DataModel();
+            string sql = "SELECT * FROM CHITIETHOADON_MANH1;";
+            return Json(db.get(sql), JsonRequestBehavior.AllowGet);
+        }
+        public JsonResult manh2()
+        {
+            DataModel db = new DataModel();
+            string sql = "SELECT * FROM CHITIETHOADON_MANH2;";
+            return Json(db.get(sql), JsonRequestBehavior.AllowGet);
+        }
     }
 }
